@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: 50vh;
+  margin-left: auto;
+  margin-top: 10rem;
+  margin-right: auto;
+  border-radius: 62px;
+  background: linear-gradient(315deg, #ff7452, #d66145);
+  box-shadow: -9px -9px 43px #91422f, 9px 9px 43px #ee6c4d;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.neo-input {
+  width: 80%; /* Ajuste del ancho */
+  padding: 15px; /* Agrega espacio interno para mejorar el efecto */
+  border-radius: 62px;
+  background: #ee6c4d;
+  box-shadow: inset 5px 5px 10px #a44b35, inset -5px -5px 10px #ff8d65;
+  border: none; /* Elimina el borde */
+  outline: none; /* Elimina el borde al hacer clic */
+  margin-bottom: 1rem;
+}
+
+.title {
+  width: 80%;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  /* border-radius: 62px;
+  background: linear-gradient(315deg, #ff7452, #d66145);
+  box-shadow: -7px -7px 14px #ae4f38, 7px 7px 14px #ff8962; */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #faf0ca;
+  font-style: italic;
+}
+.button {
+  width: 30%;
+  padding: 15px;
+  border-radius: 62px;
+  background: linear-gradient(
+    315deg,
+    #ff7452,
+    #d66145
+  ); /* Ajuste del gradiente para que coincida con el título */
+  box-shadow: -7px -7px 14px #ae4f38, 7px 7px 14px #ff8962;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  font-family: "Inter", sans-serif; /* Usar la misma fuente */
+  font-weight: bold;
+  color: #faf0ca; /* Mismo color de texto */
+  text-align: center;
+  cursor: pointer; /* Cambiar el cursor para indicar que es interactivo */
+  transition: transform 0.2s ease; /* Animación para un efecto de presionar */
+}
+
+.button:hover {
+  transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+}
+
+.button:active {
+  box-shadow: inset 7px 7px 14px #ae4f38, inset -7px -7px 14px #ff8962;
+}
